@@ -1,12 +1,10 @@
 
-
-
 var React = require('react');
 function encode(input){
-  var output = "doggy";
+  var output = "mince";
   var plainAlphabet = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
   var plainAlphabetArray = plainAlphabet.split('');
-  var offset = 2;
+  var offset = 1;
   var cypherAlphabet;
   var cypherAlphabetArray = [];
   for (var i = 0; i < 26; i++){
@@ -15,8 +13,6 @@ function encode(input){
 
   }
   for (var i = 0; i < 26; i++){
-
-
     //console.log(i +" "+ plainAlphabetArray[i]+" => "+cypherAlphabetArray[i]);
   }
 
